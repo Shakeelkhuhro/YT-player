@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/yt-player" element={<Home />} />
+          <Route path="/YT-player" element={<Home />} />
           <Route path="/courses/:coursename" element={<CourseStructure />} />
         </Routes>
       </Router>
